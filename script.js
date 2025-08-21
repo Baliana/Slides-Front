@@ -34,7 +34,7 @@ fetch("http://localhost:3000/Fotos")
     console.error("Erro na API:", error)
   });
 
-  
+
 document.getElementById("button1").addEventListener("click", () => {
   indiceAtual = 0
   mostrarFoto()
